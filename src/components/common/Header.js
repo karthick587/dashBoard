@@ -16,7 +16,7 @@ const Header = () => {
           />
         </div>
       </div>
-      <Nav className="ml-auto">
+      <div className="d-flex">
         <div >
           <div className='circle'>
             <CiMail />
@@ -37,7 +37,7 @@ const Header = () => {
             <img src={img} alt='Profile'  />
           </div>
         </div>
-      </Nav>
+      </div>
     </Navbar>
   );
 };
