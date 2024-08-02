@@ -24,7 +24,7 @@ const NetProfit = () => {
   return (
     <Card bg="dark" text="white" className='pie-chat'>
       <Card.Body>
-        <div className='row'>
+        <div className='row align-items-center'>
           <div className='col-6'>
             <div className='middle'>
               Net Profit
