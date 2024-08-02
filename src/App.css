@@ -407,6 +407,10 @@ body {
 
 @media only screen and (max-width: 600px) {
 
+  .dashboard.container-fluid {
+    padding: 20px 10px 0px 10px;
+  }
+
   .search-bar .search-bar-input input {
     border: 1px solid #80808070;
     margin: 0px;
