@@ -57,9 +57,6 @@ const NetProfit = () => {
                 </Pie>
               </PieChart>
             </ResponsiveContainer>
-            <p className='p-0 m-0'>
-              *The value here has been rounded off.
-            </p>
           </div>
         </div>
       </Card.Body>
