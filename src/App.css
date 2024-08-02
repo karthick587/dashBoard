@@ -41,8 +41,8 @@ body {
 }
 
 .sidebar {
-  min-width: 95px;
-  width: 95px;
+  min-width: 90px;
+  width: 90px;
   padding: 15px 0px 10px 0px;
   background-color: #1f1f1f;
 }
@@ -242,8 +242,9 @@ body {
 /* DashBoard Start */
 
 .dashboard.container-fluid {
+  background: #000;
   padding-top: 30px;
-  background: black;
+  padding: 30px 25px 0px 25px;
 }
 
 .order_table {
