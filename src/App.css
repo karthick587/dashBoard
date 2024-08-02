@@ -371,15 +371,18 @@ body {
   justify-content: space-evenly;
 }
 
-.middle-left .div .icon.orange{
+.middle-left .div .icon.orange {
   background: #ffa50066;
 }
-.middle-left .div .icon.blue{
+
+.middle-left .div .icon.blue {
   background: #3f51b570;
 }
-.middle-left .div .icon.green{
+
+.middle-left .div .icon.green {
   background: #00968840;
 }
+
 .middle-left .div .icon svg {
   font-size: 28px;
   fill: #ffffff9c;
@@ -409,6 +412,11 @@ body {
 
   .dashboard.container-fluid {
     padding: 20px 10px 0px 10px;
+    overflow-x: hidden;
+  }
+
+  .dash-space {
+    margin: 15px 0;
   }
 
   .search-bar .search-bar-input input {
