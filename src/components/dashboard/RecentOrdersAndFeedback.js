@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Table, Row, Col } from 'react-bootstrap';
-import img from "../assert/img/IMG_20200201_125937_513.jpg"
+import img from "../../assert/img/IMG_20200201_125937_513.jpg"
 import { PiStarThin } from "react-icons/pi";
 const RecentOrders = () => {
   const orders = [
@@ -64,7 +64,7 @@ const RecentOrders = () => {
                 <div className='div'>
                   <div className='top'>
                     <div className='profile'>
-                      <img src={img} />
+                      <img src={img} alt='img' />
                     </div>
                     <div className='name'>
                       {val.customer}

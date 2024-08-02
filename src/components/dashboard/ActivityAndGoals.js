@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
-import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { BiTargetLock } from "react-icons/bi";
 import { IoIosArrowForward } from "react-icons/io";
 import { PiHamburgerDuotone } from "react-icons/pi";

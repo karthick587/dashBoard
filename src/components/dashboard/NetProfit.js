@@ -9,12 +9,8 @@ const data = [
 
 const COLORS = ['#7294ff', '#3658c5'];
 
-const RADIAN = Math.PI / 180;
 
-const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
-  const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-  const x = cx + radius * Math.cos(-midAngle * RADIAN);
-  const y = cy + radius * Math.sin(-midAngle * RADIAN);
+const renderCustomizedLabel = ({ cx, cy }) => {
 
   return (
     <text x={cx} y={cy} fill="white" style={{ fontSize: 10, width: 20 }} textAnchor="middle" dominantBaseline="central">
@@ -22,7 +18,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
     </text>
   );
 };
-const CustomerFeedback = () => {
+const NetProfit = () => {
 
 
   return (
@@ -71,4 +67,4 @@ const CustomerFeedback = () => {
   );
 };
 
-export default CustomerFeedback;
+export default NetProfit;

@@ -3,7 +3,7 @@ import { Card, Row, Col } from 'react-bootstrap';
 import { FaShoppingBasket } from "react-icons/fa";
 import { PiHandbagSimpleBold } from "react-icons/pi";
 import { FaSortUp, FaSortDown } from "react-icons/fa";
-import CustomerFeedback from './CustomerFeedback';
+import CustomerFeedback from './NetProfit';
 const Cards = () => {
     const cardData = [
         { icon: <FaShoppingBasket />, title: "Total Orders", value: "75" },
@@ -28,8 +28,8 @@ const Cards = () => {
                                 <div className='left'>
                                     {data.value}
                                 </div>
-                                <div className={`right ${index % 2 == 1 ? "up" : "down"} `}>
-                                    {index % 2 == 1 ? <FaSortUp /> : <FaSortDown />} 3%
+                                <div className={`right ${index % 2 === 1 ? "up" : "down"} `}>
+                                    {index % 2 === 1 ? <FaSortUp /> : <FaSortDown />} 3%
                                 </div>
                             </div>
                         </Card.Body>

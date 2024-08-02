@@ -1,10 +1,10 @@
 import React from 'react';
-import { InputGroup, FormControl, Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { FiSearch } from "react-icons/fi";
 import { CiMail } from "react-icons/ci";
 import { IoSettingsOutline } from "react-icons/io5";
 import { FaRegBell } from "react-icons/fa";
-import img from "../assert/img/IMG_20200201_125937_513.jpg"
+import img from "../../assert/img/IMG_20200201_125937_513.jpg"
 const Header = () => {
   return (
     <Navbar variant="dark" className=" nav-bg-dark">

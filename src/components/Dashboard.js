@@ -1,8 +1,7 @@
 import React from 'react';
-import Cards from './Cards';
-import Activity from './Activity';
-import RecentOrders from './RecentOrders';
-import CustomerFeedback from './CustomerFeedback';
+import Cards from './dashboard/Cards';
+import Activity from './dashboard/ActivityAndGoals';
+import RecentOrders from './dashboard/RecentOrdersAndFeedback';
 
 const Dashboard = () => {
   return (
